@@ -1,7 +1,7 @@
 baseurl = "https://eglenn2.github.io/"
 canonifyurls = true
 relativeURLs = true
-publishDir = "../eglenn2.github.io"
+publishDir = ".."
 
 # Configuration of Hugo
 # Guide: https://sourcethemes.com/academic/docs/get-started/

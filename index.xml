@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liz Glenn</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://eglenn2.github.io/</link>
+      <atom:link href="https://eglenn2.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Liz Glenn</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://eglenn2.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Liz Glenn</title>
-      <link>/</link>
+      <link>https://eglenn2.github.io/</link>
     </image>
     
     <item>
       <title>ABOUT ME</title>
-      <link>/about/</link>
+      <link>https://eglenn2.github.io/about/</link>
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
+      <guid>https://eglenn2.github.io/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LET&#39;S CONNECT</title>
-      <link>/connect/</link>
+      <link>https://eglenn2.github.io/connect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/connect/</guid>
+      <guid>https://eglenn2.github.io/connect/</guid>
       <description>&lt;p&gt;I welcome collaboration, consultation requests, and any questions about my work.&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;mailto:eglenn2@uoregon.edu&#34;&gt;
