@@ -9,3 +9,5 @@ _site/
 .gitignore
 .gitkeep
 config.toml
+index.Rmd
+Website.Rproj
