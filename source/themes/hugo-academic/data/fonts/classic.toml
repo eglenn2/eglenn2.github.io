@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Classic"
+
+# Optional Google font URL
+google_fonts = "Montserrat:500|Roboto+Slab|Roboto+Mono"
+
+# Font families
+heading_font = "Montserrat"
+body_font = "Roboto Slab"
+nav_font = "Montserrat"
+mono_font = "Roboto Mono"
