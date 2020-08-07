@@ -3,3 +3,9 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.gitignore
+.gitkeep
+config.toml
