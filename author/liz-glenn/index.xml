@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liz Glenn</title>
-    <link>/author/liz-glenn/</link>
-      <atom:link href="/author/liz-glenn/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://eglenn2.github.io/author/liz-glenn/</link>
+      <atom:link href="https://eglenn2.github.io/author/liz-glenn/index.xml" rel="self" type="application/rss+xml" />
     <description>Liz Glenn</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/media/eglenn18.jpg</url>
+      <url>https://eglenn2.github.io/media/eglenn18.jpg</url>
       <title>Liz Glenn</title>
-      <link>/author/liz-glenn/</link>
+      <link>https://eglenn2.github.io/author/liz-glenn/</link>
     </image>
     
   </channel>
