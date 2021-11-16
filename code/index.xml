@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R CODE | Liz Glenn</title>
-    <link>https://eglenn2.github.io/code/</link>
-      <atom:link href="https://eglenn2.github.io/code/index.xml" rel="self" type="application/rss+xml" />
+    <link>/code/</link>
+      <atom:link href="/code/index.xml" rel="self" type="application/rss+xml" />
     <description>R CODE</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://eglenn2.github.io/media/eglenn18.jpg</url>
+      <url>/media/eglenn18.jpg</url>
       <title>R CODE</title>
-      <link>https://eglenn2.github.io/code/</link>
+      <link>/code/</link>
     </image>
     
   </channel>
