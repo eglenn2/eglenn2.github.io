@@ -1,6 +1,5 @@
 require(rvest)
 require(dplyr)
-require(rio)
 require(purrr)
 require(tidyr)
 
@@ -33,14 +32,14 @@ require(tidyr)
 # Set Dependencies #
 ####################
 
-filepath <- "" #Put in filepath to your csv spreadsheet
-filename <- "APPIC Sites.csv" #Name of your csv spreadsheet
 output_file <- "APPIC_info.xlsx" #change if you want to
 
-#That's all! 
+
+#Press Run
+#Choose your file that has a list of directory links
 #Output file is set to APPIC_site_info.xlsx
 
-dir_list <- read.csv(paste0(filepath, filename), col.names = "Link")
+dir_list <- read.csv(file.choose(), col.names = "Link")
 counter = 1
 APPIC_list = list()
 for (website in dir_list$Link) {
