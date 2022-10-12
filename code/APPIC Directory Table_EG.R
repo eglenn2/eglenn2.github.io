@@ -2,9 +2,11 @@ require(rvest)
 require(dplyr)
 require(purrr)
 require(tidyr)
+require(rio)
+require(here)
 
-#Run below line if first time to install required packages - 
-#install.packages(install.packages(c("rvest", "dplyr", "rio", "purrr", "tidyr"))
+#Run the line below if first time to install required packages - 
+#  install.packages(install.packages(c("rvest", "here", "dplyr", "rio", "purrr", "tidyr")))
 
 
 #####################################
@@ -32,10 +34,11 @@ require(tidyr)
 # Set Dependencies #
 ####################
 
-output_file <- "APPIC_info.xlsx" #change if you want to
+filepath <- here() #you can change this if you want using setwd(), and setting to the spot you want your file to save
+output_file <- "APPIC_info.xlsx" #this is the name of your output file
 
 
-#Press Run
+#Highlight all of the code and press Run
 #Choose your file that has a list of directory links
 #Output file is set to APPIC_site_info.xlsx
 
@@ -53,8 +56,10 @@ for (website in dir_list$Link) {
     rename(var = X1) %>%
     rename(data = X2) %>%
     filter(var != "") %>%
+    filter(var != "Other:") %>%
     pivot_wider(names_from = var, 
-                values_from = data)
+              values_from = data, 
+              values_fn = list)
 
 program <- APPIC_info %>% 
   html_nodes(".collapsible:nth-child(9) .program-desc") %>% 
@@ -69,6 +74,7 @@ counter <- counter + 1
 print(paste(percent, "% of the way there."))
 }
 
+
 APPIC_data <- bind_rows(APPIC_list)
-export(APPIC_data, paste(filepath, output_file))
-print(paste("Data Exported to", filepath))
+export(APPIC_data, here(output_file))
+print(paste("Data Exported to", here()))
