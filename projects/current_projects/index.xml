@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CURRENT PROJECTS | Liz Glenn, PhD</title>
+    <link>/projects/current_projects/</link>
+      <atom:link href="/projects/current_projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>CURRENT PROJECTS</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/media/eglenn18.jpg</url>
+      <title>CURRENT PROJECTS</title>
+      <link>/projects/current_projects/</link>
+    </image>
+    
+  </channel>
+</rss>

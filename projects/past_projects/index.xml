@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Liz Glenn, PhD</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
-    <description>Authors</description>
+    <title>PAST PROJECTS | Liz Glenn, PhD</title>
+    <link>/projects/past_projects/</link>
+      <atom:link href="/projects/past_projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>PAST PROJECTS</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/media/eglenn18.jpg</url>
-      <title>Authors</title>
-      <link>/authors/</link>
+      <title>PAST PROJECTS</title>
+      <link>/projects/past_projects/</link>
     </image>
     
   </channel>

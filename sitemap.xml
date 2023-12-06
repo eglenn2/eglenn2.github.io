@@ -9,13 +9,17 @@
   </url><url>
     <loc>/categories/</loc>
   </url><url>
-    <loc>/projects/</loc>
+    <loc>/projects/current_projects/</loc>
   </url><url>
     <loc>/connect/</loc>
   </url><url>
     <loc>/</loc>
   </url><url>
-    <loc>/author/liz-glenn/</loc>
+    <loc>/author/liz-glenn-phd/</loc>
+  </url><url>
+    <loc>/projects/past_projects/</loc>
+  </url><url>
+    <loc>/projects/</loc>
   </url><url>
     <loc>/publication_types/</loc>
   </url><url>
