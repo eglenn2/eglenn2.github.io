@@ -5,6 +5,19 @@
     <loc>/about/</loc>
     <lastmod>2022-10-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/code/ml-class/final-project/</loc>
+  </url><url>
+    <loc>/code/ml-class/hw1/</loc>
+  </url><url>
+    <loc>/code/ml-class/hw2/</loc>
+  </url><url>
+    <loc>/code/ml-class/hw3/</loc>
+  </url><url>
+    <loc>/code/transcript-processing-template/</loc>
+  </url><url>
     <loc>/authors/</loc>
   </url><url>
     <loc>/categories/</loc>
@@ -12,8 +25,6 @@
     <loc>/projects/current_projects/</loc>
   </url><url>
     <loc>/connect/</loc>
-  </url><url>
-    <loc>/</loc>
   </url><url>
     <loc>/author/liz-glenn-phd/</loc>
   </url><url>
