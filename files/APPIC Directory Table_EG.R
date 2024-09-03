@@ -35,12 +35,12 @@ require(here)
 ####################
 
 filepath <- here() #you can change this if you want using setwd(), and setting to the spot you want your file to save
-output_file <- "APPIC_info.xlsx" #this is the name of your output file
+output_file <- "APPIC_info.csv" #this is the name of your output file, needs to be a csv
 
 
 #Highlight all of the code and press Run
 #Choose your file that has a list of directory links
-#Output file is set to APPIC_site_info.xlsx
+#Output file is set to APPIC_site_info.csv
 
 dir_list <- read.csv(file.choose(), col.names = "Link")
 counter = 1
